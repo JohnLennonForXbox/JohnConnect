@@ -1,0 +1,34 @@
+{
+  "name": "johnconnect",
+  "version": "1.0.0",
+  "description": "Save data store and multiplayer relay for web games",
+  "main": "src/johnconnect.js",
+  "scripts": {
+    "serve": "node ./src/johnconnect.js --env-file=./.env"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JohnLennonForXbox/JohnConnect.git"
+  },
+  "keywords": [
+    "John",
+    "Lennon",
+    "Clicker"
+  ],
+  "author": "JohnLennonForXbox",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JohnLennonForXbox/JohnConnect/issues"
+  },
+  "homepage": "https://github.com/JohnLennonForXbox/JohnConnect#readme",
+  "dependencies": {
+    "argon2": "^0.44.0",
+    "express": "^5.1.0",
+    "express-rate-limit": "^8.1.0",
+    "express-validator": "^7.2.1",
+    "iovalkey": "^0.3.3",
+    "jsonwebtoken": "^9.0.2",
+    "socket.io": "^4.8.1",
+    "sqlite3": "^5.1.7"
+  }
+}
