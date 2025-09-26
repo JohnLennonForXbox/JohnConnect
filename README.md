@@ -38,7 +38,7 @@ Restart=on-failure
 RestartSec=5
 ; These 4 directives are specific to your setup
 WorkingDirectory=/home/johnconnect/
-ExecStart=/usr/bin/node --env-file=/home/johnconnect/.env /home/johnconnect/main.js
+ExecStart=/usr/bin/node --env-file=/home/johnconnect/.env /home/johnconnect/src/johnconnect.js
 User=johnconnect
 BindPaths=/home/johnconnect/db.sqlite ; Security directive that makes the database r/w for this service
 ; If you don't want to run JohnConnect on a port <= 1024 (for example using a reverse proxy) you can delete these two directives
